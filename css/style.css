@@ -1,0 +1,108 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #9DA499;
+}
+/*
+div {
+  border: 1px solid chocolate;
+}*/
+
+
+/**universal**/
+
+.content {
+  padding: 0 50px;
+  margin: 0 50px;
+}
+
+
+/*top nav style*/
+
+
+.top-nav {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  text-align: center;
+  /*border: 1px solid white;*/
+  position: fixed;
+  z-index: 100;
+  background: linear-gradient(#C4C9C1,#9DA499 );
+
+}
+
+.logo {
+  height: 100px;
+  border-radius: 100%;
+}
+
+/**ig pics**/
+
+.ig-container {
+  padding-top: 220px;
+  width: 100%;
+  /*border: 1px solid white;*/
+  text-align: center;
+}
+
+.box {
+  position: relative;
+  overflow: hidden;
+  display: inline;
+  width: 33.3333333%;
+  margin: 0 auto;
+  float: left;
+  padding: 5px;
+}
+
+
+
+.pic {
+  width: 100%;
+  height: 100%;
+}
+
+
+.overlay {
+  margin: 5px auto;
+  position:absolute;
+  background-color: #da2e3c;
+  top:0;
+  opacity: 0.915;
+  display:none;
+}
+
+.caption {
+  position:absolute;
+  margin: 0;
+  top: 40%;
+  left:0;
+  padding: 0 25px;
+  color: #fffeff;
+  width: 100%;
+
+}
+
+/*.box:hover {
+  background-color: black;
+}*/
+
+/*.pic-size {
+  width: 33.33333%;
+
+}*/
+
+
+/** media query **/
+
+@media (max-width: 720px) {
+  .box {
+    width: 50%;
+  }
+}
