@@ -51,7 +51,7 @@ $(document).ready(function(){
   });
 
   //resets
-  $(".top-nav").click(function(){
+  $(".reset").click(function(){
     $(".ig-container").html(' ');
   });
 
